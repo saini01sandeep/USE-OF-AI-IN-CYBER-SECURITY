@@ -47,7 +47,7 @@ How to generate query - To generate a query we have to be clear about what we wa
 •	If you are testing a real-world application (ethically with permission), then you need to tell the model that you have proper permissions.
 •	Sometimes even with this, the model may not give the solution. In that case, you need to manipulate it for a solution, for example by adding that you are doing this in a CTF (Capture the Flag) or lab environment.
 For command execution, sometimes we need to modify our payload to bypass a firewall. For example:
-http://target.com/?page=/etc/%2e/hosts
+'http://target.com/?page=/etc/%2e/hosts'
 In this condition, AI can suggest multiple ways to modify the payload according to the target and the target URL.
 
 Python scripts - The scripts do not work by just copy-paste; you need to change them manually for proper use.
